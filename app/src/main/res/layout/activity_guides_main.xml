@@ -1,0 +1,124 @@
+
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/G_first_name_ET"
+        android:drawableLeft="@drawable/ic_brightness_auto_black_36dp"
+        android:hint="Enter first name"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:paddingLeft="5dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/G_last_name_ET"
+        android:drawableLeft="@drawable/ic_text_format_black_36dp"
+        android:hint="Enter last name"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:paddingLeft="5dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/G_user_name_ET"
+        android:drawableLeft="@drawable/ic_account_box_black_36dp"
+        android:hint="Username"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:paddingLeft="5dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/G_pass_ET"
+        android:drawableLeft="@drawable/ic_vpn_key_black_36dp"
+        android:hint="Password"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/G_contact_ET"
+        android:drawableLeft="@drawable/ic_call_black_36dp"
+        android:hint="Mobile #"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/G_email_ET"
+        android:drawableLeft="@drawable/ic_email_black_36dp"
+        android:hint=" Email"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/G_maincity_ET"
+        android:drawableLeft="@drawable/ic_pin_drop_black_36dp"
+        android:hint="main city"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sign up"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:onClick="user_reg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Already have an account?"
+        android:onClick="already_account"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="visible"
+        android:textColor="#000"
+        android:layout_weight="0.25"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img"
+            android:src="@drawable/batman"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/namee"
+            android:text="SUFIAN KHAN"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="username"
+            android:id="@+id/user_name"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="email"
+            android:id="@+id/email"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="mobile"
+            android:id="@+id/mobile"
+            android:textSize="30sp"/>
+
+     <TextView
+         android:gravity="center_horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:text="City"
+         android:id="@+id/city"
+         android:textSize="30sp"
+         />
+
+        <RatingBar
+            android:id="@+id/simpleRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="#fff"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:rating="0" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
